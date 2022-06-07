@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+
+
+<!DOCTYPE library[
+<!ELEMENT library (name,book+)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT book (bkid,bkname,author,publisher,issuedate,returndate)>
+<!ELEMENT bkid (#PCDATA)>
+<!ELEMENT bkname (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT publisher (#PCDATA)>
+<!ELEMENT issuedate (#PCDATA)>
+<!ELEMENT returndate (#PCDATA)>
+]>
+
+
+<library>
+
+<name>FR.SANTIAGO LIBRARY</name>
+
+<book>
+<bkid>BOOK ID: K123</bkid>
+<bkname>BOOK NAME: Ponniyin Selvan</bkname>
+<author>AUTHOR: Kalki</author>
+<publisher>PUBLISHER: Vanathi Pathipakkam</publisher>
+<issuedate>ISSUE DATE: 13-Apr-2021</issuedate>
+<returndate>RETURN DATE :20-Apr-2021</returndate>
+</book>
+
+
+</library>

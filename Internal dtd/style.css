@@ -1,0 +1,54 @@
+*
+{
+background-color: black;
+color: violet;
+}
+library
+{
+display: block;
+color: red;
+padding-left: 20px;
+border: solid;
+}
+name
+{
+font-size: 50pt;
+text-align: center;
+
+display: block;
+padding-top: 20px;
+color: blue;
+text-decoration: bold;
+}
+
+bkid
+{
+font-size: 20pt;
+text-decoration: bold;
+
+display: block;
+padding-top: 60px;
+color: white;
+word-spacing: 10px;
+}
+bkname,author,publisher
+{
+font-size: 16pt;
+text-align: left;
+
+display: block;
+padding-top: 20px;
+color: white;
+word-spacing: 10px;
+text-indent: 30px;
+}
+returndate,issuedate
+{
+font-size: 20pt;
+
+
+display: block;
+padding-top: 20px;
+color: red;
+
+}
